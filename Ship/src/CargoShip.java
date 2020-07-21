@@ -16,12 +16,10 @@ public class CargoShip extends Ship {
 	@Override
 	public String toString() {
 		return String.format ("%s %s%n%s: %d", "Cargo", super.toString(), 
-				"Maximum Tons of Cargo",  getTons());
-				             
-				                  
-	}
-
-    }
+		"Maximum Tons of Cargo", getTons());
+            
+ }
+}
 	
 
 

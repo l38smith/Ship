@@ -22,11 +22,11 @@ public class ShipDemo  {
 			while (choice != -1)
 			
 		    {
-			   if (choice > 0 && choice < 4)
-			   {
+			    if (choice > 0 && choice < 4)
+			    {
 			
-			   switch (choice )
-			   {
+			    switch (choice )
+			    {
 			    case 1:
 			    
 			    input.nextLine();
@@ -86,21 +86,21 @@ public class ShipDemo  {
    				break;
 				
 			   			   
-			   }
-			   }
+			     }
+			    }
 	
 		   	    else
 			    
 			    System.out.println("Incorrect entry. Please try again.");
 			    DisplayMenu();
 		        choice = input.nextInt();
-		       }		    			   
+		        }		    			   
 		        
 			    
 			    System.out.println(str1);
 			    input.nextLine();
 			    
-  	           }        
+  	            }        
 	    
 			 
 		        public static void DisplayMenu()
@@ -114,7 +114,7 @@ public class ShipDemo  {
 			       
 			    System.out.println("Enter -1 to exit and display the data you've entered ");
 			      
-			  }		   	          
+		   }		   	          
          }
 
 

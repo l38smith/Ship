@@ -22,14 +22,11 @@ public class Ship {
     }
    	
 
-		
 	@Override
 	public String toString() {
 	
 	return String.format("%s: %s%n%s: %s%n", "Ship Name", getName(), "Year Built",  getYear());
-            
-	
-}
-
+          
+ }
 }
 

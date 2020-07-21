@@ -19,13 +19,9 @@ public class CruiseShip extends Ship {
   public String toString() 
   {
 	  return String.format("%s' "
-	  		+ " %s%n%s: %d", "Cruise", super.toString(),
-	  		              "Maximum Passengers", getPassengers());
-      
-			                          
-			                
-			                  
+	  + " %s%n%s: %d", "Cruise", super.toString(),
+	  "Maximum Passengers", getPassengers());
+       
+		                  
   }
-
-  
 }
